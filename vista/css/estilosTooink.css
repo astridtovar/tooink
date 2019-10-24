@@ -1,0 +1,311 @@
+body {
+    margin: 1em;
+}
+
+#modalPrincipal{
+    width: 100%;
+    height: 100%;
+    margin: 2em;
+    padding: 1em;
+    text-align: center;
+    font-size: 16px;
+}
+
+#desvio{
+    padding: 2em;
+    text-align: center;
+    font-size: 18px;
+}
+
+#headerAdmin{
+    background-color: rgba(00,00,00,0.4);
+}
+
+.activeAdmin{
+    background-color: rgba(00,00,00,0.9);
+}
+
+#headerTatuador{
+    background-color: rgba(237,139,45,0.6);
+}
+
+#headerCliente{
+    background-color: rgba(167,19,32,0.6);
+}
+
+#nav-tatuador{
+    background-color: rgba(167,19,32,0.6);
+    color: black;
+}
+
+#nav-tatuador li:hover{
+    background-color: rgba(167,19,32,0.6);
+    color: black;
+}
+
+.activeTatuador{
+    background-color: rgba(167,19,32,0.8);
+}
+
+#footerTatuador{
+    background-color: rgba(237,139,45,0.6);
+}
+
+#footerAdmin{
+    background-color: rgba(00,00,00,0.4);
+}
+
+#footerCliente{
+    background-color: rgba(167,19,32,0.6);
+}
+
+#footerText{
+    padding-top: 6px;
+    text-align: center;
+}
+
+#logotipo{
+    padding-top: 6px;
+}
+
+#text-nav{
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+}
+
+#dropdownAdmin{
+    background-color: rgba(00,00,00,0.4);
+    text-align: right;
+}
+
+#opcAdmin{
+    background-color: rgba(00,00,00,0.4);
+    padding: 1em;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+#btnAdmin{
+    margin-right: 10px;
+}
+
+#requerido{
+    color: red;
+}
+
+#h3{
+    margin: 0px;
+    margin-top: 3px;
+    padding: 0px;
+}
+
+#h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+#h4{
+    color: gray;
+}
+
+#select{
+    margin: 1px;
+    margin-right: 2em;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#palabraBusqueda{
+    margin: 1px;
+    padding: 1px;
+    margin-right: 2em;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#btnBuscar{
+    margin: 1px;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+a{
+    text-decoration:none; 
+    color: black;
+}
+
+a:hover{
+    text-decoration:none; 
+    color: black;
+}
+
+#btn-icon{
+    margin: 0px;
+    padding: 0px;
+}
+
+#fotoPerfil{
+    margin: 0px;
+    padding: 0px;
+}
+
+.selectEstilosOculto{
+    display: none;
+}
+
+.selectEstilos{
+    display: block;
+}
+
+.trabajoTatuador{
+    width: 20%;
+    height: 310px;
+    margin: 5px;
+    padding-top: 10px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 4px 6px 28px -6px rgba(0,0,0,0.48);
+    -moz-box-shadow: 4px 6px 28px -6px rgba(0,0,0,0.48);
+    box-shadow: 4px 6px 28px -6px rgba(0,0,0,0.48);
+}
+
+.contenerdor-rank{
+    position: fixed;
+}
+
+.trabajoTatuadorRanking{
+    width: 20%;
+    height: 310px;
+    margin: 5px;
+    padding-top: 10px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 4px 6px 28px -6px rgba(0,0,0,0.48);
+    -moz-box-shadow: 4px 6px 28px -6px rgba(0,0,0,0.48);
+    box-shadow: 4px 6px 28px -6px rgba(0,0,0,0.48);
+}
+
+.imgTrabajoTatuador{
+    width: 100%;
+    height: auto;
+}
+
+#trabajosArtista{
+    background-color: rgba(237,139,45,0.6);
+    margin-top: 2em;
+    text-align: center;
+}
+
+#editarFotoPerfil{
+    opacity: 0.5;
+}
+
+.archivo {
+    width: 12%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#nuevaFotoPerfil{
+    background-image: url("../imgs/iconos/edit-button.png");
+    height: 100%;
+    background-size: 100%;
+    padding-left: 100%;
+    width: 0;
+    background-color: rgba(255,255,255,0);
+}
+
+#calendario{
+    width: 100%;
+}
+
+#calendar {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#citas{
+    width: 50%;
+}
+
+#tablaCitas{
+    border-collapse: collapse;
+    width: 100%;
+    border-color: black;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(237,139,45,0.3);
+}
+
+th {
+    background-color: rgba(167,19,32,0.4);
+    color: black;
+}
+
+#SelectHoras{
+    text-align: center;
+    padding: 0px;
+}
+
+#spanGuion{
+    margin: 2px;
+}
+
+#btn{
+    margin-top: 6px;
+}
+
+button {
+background-color: transparent;
+}
+
+.contenidoTatuadores{
+    width: 91%;
+    float: left;
+    padding: 10px;
+}
+
+.tatuador{
+    margin: 5px;
+    width: 19%;
+    height: 180px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 4px 6px 28px -6px rgba(0,0,0,0.48);
+    -moz-box-shadow: 4px 6px 28px -6px rgba(0,0,0,0.48);
+    box-shadow: 4px 6px 28px -6px rgba(0,0,0,0.48);
+    float: left;
+    padding: 10px;
+}
+
+.fotoPerfil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+}
+
+.directorio{
+    margin: 1em;
+}

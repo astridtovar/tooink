@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Normal Color*/
+/*Border radius*/
+/*Preloader*/
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 99999;
+  background: #fff;
+}
+.preloader .cssload-speeding-wheel {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% - 3.5px);
+}
+/* This is for popins font for firefox */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/poppins/v1/2fCJtbhSlhNNa6S2xlh9GyEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+ }
+/* This is for popins font for firefox */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/poppins/v1/UGh2YG8gx86rRGiAZYIbVyEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+ }
+/* This is for popins font for firefox */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/poppins/v1/yQWaOD4iNU5NTY0apN-qj_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+ }
+/*Just change your choise color here its theme Colors*/
+body {
+  background: #fff;
+}
+/*Top Header Part*/
+.logo i {
+  color: #ffffff;
+}
+.top-left-part .light-logo {
+  display: inline-block;
+}
+
+.top-left-part .light-logo2 {
+  display: inline-block;
+  margin-left: -13px;
+}
+.top-left-part .dark-logo {
+  display: none;
+}
+.navbar-header {
+  background: #e5681f;
+}
+.navbar-top-links > li > a {
+  color: #ffffff;
+}
+/*Right panel*/
+.right-sidebar .rpanel-title {
+  background: #e5681f;
+}
+/*Bread Crumb*/
+.bg-title .breadcrumb .active {
+  color: #e5681f;
+}
+
+.bg-title .page-title{
+  color: #e5681f;
+}
+/*Sidebar*/
+.sidebar {
+  background: #fff;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+}
+.sidebar .label-custom {
+  background: #01c0c8;
+}
+#side-menu li a {
+  color: #54667a;
+}
+#side-menu li a {
+  color: #54667a;
+  border-left: 0px solid #fff;
+}
+#side-menu > li > a:hover,
+#side-menu > li > a:focus {
+  background: rgba(0, 0, 0, 0.03);
+}
+#side-menu > li > a.active {
+  border-left: 3px solid #e5681f;
+  color: #2b2b2b;
+  font-weight: 500;
+}
+#side-menu > li > a.active i {
+  color: #e5681f;
+}
+#side-menu ul > li > a:hover {
+  color: #e5681f;
+}
+#side-menu ul > li > a.active {
+  color: #2b2b2b;
+  font-weight: 500;
+}
+.sidebar #side-menu .user-pro .nav-second-level a:hover {
+  color: #e5681f;
+}
+/*themecolor*/
+.bg-theme {
+  background-color: #03a9f3 !important;
+}
+.bg-theme-dark {
+  background-color: #e5681f !important;
+}
+/*Chat widget*/
+.chat-list .odd .chat-text {
+  background: #e5681f;
+}
+/*Button*/
+.btn-custom {
+  background: #e5681f;
+  border: 1px solid #e5681f;
+  color: #ffffff;
+}
+.btn-custom:hover {
+  background: #e5681f;
+  opacity: 0.8;
+  color: #ffffff;
+  border: 1px solid #e5681f;
+}
+/*Custom tab*/
+.customtab li.active a,
+.customtab li.active a:hover,
+.customtab li.active a:focus {
+  border-bottom: 2px solid #e5681f;
+  color: #e5681f;
+}
+.tabs-vertical li.active a,
+.tabs-vertical li.active a:hover,
+.tabs-vertical li.active a:focus {
+  background: #e5681f;
+  border-right: 2px solid #e5681f;
+}
+/*Nav-pills*/
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background: #e5681f;
+  color: #ffffff;
+}

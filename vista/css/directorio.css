@@ -1,0 +1,164 @@
+body{
+    background-image: url('/tooink/vista/imgs/img-tooink/papel_negro_2.png');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+.navbar-brand .logo, .navbar-brand .logo-alt {
+    display: block;
+}
+
+#nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
+    display: none;
+}
+
+#nav.nav-transparent:not(.fixed-nav) .navbar-brand .logo {
+    display: none;
+}
+
+#nav.fixed-nav .navbar-brand .logo-alt {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    #nav.nav-transparent .navbar-brand .logo-alt {
+        display: none !important;
+    }
+    #nav.nav-transparent .navbar-brand .logo {
+        display: block !important;
+    }
+}
+
+.font-nav{
+    color: black;
+}
+
+a{
+    text-decoration:none; 
+    color: black;
+}
+
+a:hover{
+    text-decoration:none; 
+    color: black;
+}
+
+#header-cliente{
+    background-color: #a71320;
+    margin-bottom: 10px;
+}
+
+.info{
+    color: white;
+}
+
+label{
+    color: black;
+}
+
+.btn-principal{
+    background-color: #a71320;
+    color: white;
+}
+
+.btn-principal:hover{
+    background-color: #A40E18;
+    color: white;
+}
+
+#btnBuscar{
+    margin: 1px;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+#palabraBusqueda{
+    margin: 1px;
+    padding: 1px;
+    margin-right: 2em;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#palabraBusqueda:focus{
+    border-color: #a71320;
+}
+
+#h3{
+    margin: 0px;
+    margin-top: 3px;
+    padding: 0px;
+    color: white;
+}
+
+#h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+#h4{
+    color: gray;
+}
+
+#select{
+    margin: 1px;
+    margin-right: 2em;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+
+#footerText{
+    padding-top: 6px;
+    text-align: center;
+    color: white;
+}
+
+#footer{
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.alert{
+    text-align: center;
+    color: white;
+}
+
+.container-directorio{
+    height: 625px;
+}
+
+.container-desvio{
+    height: 588px;
+}
+
+.container-tooink{
+    margin-top: 70px;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.desvio{
+    padding: 2em;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-size: 30px;
+}

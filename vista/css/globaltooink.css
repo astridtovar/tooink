@@ -1,0 +1,160 @@
+body{
+    background-image: url('/tooink/vista/imgs/img-tooink/fondos/japanese-tattoo-5.png');
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand .logo, .navbar-brand .logo-alt {
+    display: block;
+}
+
+#nav:not(.nav-transparent):not(.fixed-nav) .navbar-brand .logo-alt {
+    display: none;
+}
+
+#nav.nav-transparent:not(.fixed-nav) .navbar-brand .logo {
+    display: none;
+}
+
+#nav.fixed-nav .navbar-brand .logo-alt {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    #nav.nav-transparent .navbar-brand .logo-alt {
+        display: none !important;
+    }
+    #nav.nav-transparent .navbar-brand .logo {
+        display: block !important;
+    }
+}
+
+.font-nav{
+    color: black;
+}
+
+a{
+    text-decoration:none; 
+    color: black;
+}
+
+a:hover{
+    text-decoration:none; 
+    color: black;
+}
+
+#header-cliente{
+    background-color: #740D16;
+}
+
+.btn-principal{
+    background-color: #740D16;
+    color: white;
+    margin-left: 5px;
+}
+
+.btn-principal:hover{
+    background-color: #A40E18;
+    color: white;
+}
+
+#requerido{
+    color: red;
+}
+
+.buttons{
+    margin-left: 10%;
+}
+
+.btn-individual{
+    width: 40%;
+    margin: 1em;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+button {
+background-color: transparent;
+}
+
+.btn-primary-tatuador{
+    background-color: #e5681f;
+    color: white;
+}
+
+.btn-primary-tatuador:hover{
+    background-color: #F26E21;
+    color: white;
+}
+
+.bg-title-tatuador{
+    color: #e5681f;
+}
+
+.btn-rigth{
+    margin-left: 95%;
+}
+
+#footerText{
+    padding-top: 6px;
+    text-align: center;
+    color: white;
+}
+
+#footer{
+    width: 100%;
+    font-family: sans-serif;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+}
+
+#footer-color{
+    background-color: #740D16;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.lb-busqueda{
+    margin-right: 6px;
+}
+
+.btn-primary-cliente{
+    background-color: #e02b41;
+    color: white;
+}
+
+.btn-primary-cliente:hover{
+    background-color: #C6263A;
+    color: white;
+}
+
+.foto-tatuador{
+    width: 150px;
+    height: 150px;
+}
+
+.informacion-tatuador{
+    width: 80%;
+    float: left;
+}
+
+.nombre-apellido-tatuador{
+    width: 100%;
+}
+
+.contacto{
+    clear: both;
+}
+
+.i{
+    margin-bottom: 12px;
+}
